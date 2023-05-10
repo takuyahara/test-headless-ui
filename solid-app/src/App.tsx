@@ -2,6 +2,7 @@ import type { Component } from 'solid-js';
 
 import logo from './logo.svg';
 import styles from './App.module.css';
+import MySwitch from './MySwitch';
 
 const App: Component = () => {
   return (
@@ -19,6 +20,9 @@ const App: Component = () => {
         >
           Learn Solid
         </a>
+        <p>
+          <MySwitch />
+        </p>
       </header>
     </div>
   );
