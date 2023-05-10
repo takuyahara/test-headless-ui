@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import style from './style.css';
+import MySwitch from './MySwitch';
 
 const Home = () => {
 	return (
@@ -8,6 +9,7 @@ const Home = () => {
 				<img src="../../assets/preact-logo.svg" alt="Preact Logo" height="160" width="160" />
 			</a>
 			<h1>Get Started Building PWAs with Preact-CLI</h1>
+			<MySwitch />
 			<section>
 				<Resource
 					title="Learn Preact"

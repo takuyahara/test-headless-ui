@@ -21,9 +21,11 @@
     ]
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.14",
     "preact": "^10.10.0",
     "preact-render-to-string": "^5.2.1",
-    "preact-router": "^3.2.1"
+    "preact-router": "^3.2.1",
+    "twind": "^0.16.19"
   },
   "devDependencies": {
     "@types/enzyme": "^3.10.12",
